@@ -1,0 +1,17 @@
+# Virtual environment
+venv/
+venv_chatbot/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Environment variables
+.env
+
+# Logs and system files
+*.log
+.DS_Store
+Thumbs.db
