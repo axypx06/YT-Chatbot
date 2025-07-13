@@ -1,6 +1,12 @@
-streamlit
-python-dotenv
-openai
-youtube-transcript-api
-langchain
-langchain-openai
+streamlit>=1.34.0          # web UI
+python-dotenv>=1.0.1       # load_dotenv
+openai>=1.14.0             # ChatOpenAI backend
+tiktoken>=0.5.1            # token counting for embeddings
+
+youtube-transcript-api>=0.6.1
+
+langchain>=0.2.0           # core framework
+langchain-openai>=0.1.4    # OpenAI integration split out of core
+langchain-community>=0.1.4 # FAISS + other community loaders
+
+faiss-cpu>=1.7.4           # vector store backend
