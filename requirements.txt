@@ -3,3 +3,4 @@ python-dotenv
 openai
 youtube-transcript-api
 langchain
+langchain-openai
